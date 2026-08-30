@@ -12,10 +12,10 @@ nmap -sV -sC -Pn 10.128.134.213 -p-
 
 From our results, we can see ports 21 (FTP), 80 (HTTP), and 2222 (SSH) are open.
 
-> **How many services are running under port 1000?**
+> How many services are running under port 1000?
 > Answer: 2
 
-> **What is running on the higher port?**
+> What is running on the higher port?
 > Answer: SSH
 
 Because port 80 (HTTP) is open, let’s try the target IP in a web browser.
@@ -32,10 +32,10 @@ After browse it, we can see the site is powered by `CMS Made Simple` with `versi
 
 We could see the version matches to a SQL injection vulnerability.
 
-> **What’s the CVE you’re using against the application?**
+> What’s the CVE you’re using against the application?
 > Answer: CVE-2019–9053
 
-> **To what kind of vulnerability is the application vulnerable?**
+> To what kind of vulnerability is the application vulnerable?
 > Answer: SQLi
 
 After downloading the exploit.
@@ -67,10 +67,10 @@ hydra -l mitch -P /usr/share/wordlists/rockyou.txt ssh://10.128.134.213:2222/
 [2222][ssh] host: 10.82.190.209 login: mitch password: secret
 ```
 
-> **What’s the password?**
+> What’s the password?
 > Answer: secret
 
-> **Where can you login with the details obtained?**
+> Where can you login with the details obtained?
 > Answer: SSH
 
 ```shell
@@ -91,7 +91,7 @@ cat user.txt
 G00d j0b, keep up!
 ```
 
-> **What’s the user flag?**
+> What’s the user flag?
 > Answer: G00d j0b, keep up!
 
 Now let's see the users on the system.
@@ -104,7 +104,7 @@ ls /home/
 mitch  sunbath
 ```
 
-> **Is there any other user in the home directory? What’s its name?**
+> Is there any other user in the home directory? What’s its name?
 > Answer: sunbath
 
 Now let's try if we can be root.
@@ -125,7 +125,7 @@ So let’s check out `GTFOBins` and see if we can use that for privilege escalat
 sudo vim -c ':!/bin/sh'
 ```
 
-> **What can you leverage to spawn a privileged shell?**
+> What can you leverage to spawn a privileged shell?
 > Answer: vim
 
 ```shell
@@ -142,6 +142,6 @@ cat root.txt
 W3ll###############
 ```
 
-> **What's the root flag?**
+> What's the root flag?
 > Answer: W3ll###############
 
