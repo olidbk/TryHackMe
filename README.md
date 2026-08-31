@@ -22,7 +22,10 @@ The goal of this repository is simple:
 .
 ├── Easy
 │   ├── Basic Pentesting.md
-│   └── Simple CTF.md
+│   ├── Pickle Rick.md
+│   ├── RootMe.md
+│   ├── Simple CTF.md
+│   └── ...
 ├── Medium
 ├── Hard
 └── Insane
