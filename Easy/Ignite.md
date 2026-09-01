@@ -12,9 +12,9 @@ nmap -sV -sC -Pn --open 192.168.176.170 -p-
 
 From our results, we can see port 80 (HTTP) are open. And there is a `robots.txt` file, and on it is a `/fuel` hidden directory on it.
 
-After visiting the site on browser, we see that it's a home page for `Fuel CMS Version 1.4`.
+After visiting the site on browser, we see that it's a default page for `Fuel CMS Version 1.4`.
 
-Browsing `http://192.168.176.170/fuel/` we found a login page, and after login using the credentials on the home page `username: admin` `password: admin`, we don't find anything interesting.
+Browsing `http://192.168.176.170/fuel/` we found a login page, and after login using the credentials on the default page `username: admin` `password: admin`, we don't find anything interesting.
 
 Googling `Fuel CMS Version 1.4` we found this version contains a critical pre-authentication remote code execution vulnerability (CVE-2018-16763).
 
@@ -52,7 +52,7 @@ cat /home/www-data/flag.txt
 
 Now we have to be root so we can read `root.txt`.
 
-We also have an interesting thing on the web home page.
+We also have an interesting thing on the web default page.
 
 ```text
 After creating the database, change the database configuration found in fuel/application/config/database.php to include your hostname (e.g. localhost), username, password and the database to match the new database you created.
