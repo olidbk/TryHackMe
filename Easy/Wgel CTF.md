@@ -10,7 +10,7 @@ First reconnaissance and port scanning.
 nmap -sV -sC -Pn --open 10.129.141.5 -p-
 ```
 
-From our results, we can see port 22 (SSH) and port 80 (HTTP) are open.
+From our results, we can see ports 22 (SSH) and 80 (HTTP) are open.
 
 After visiting the site we found the `Apache default page`. and we found a comment in the page source code `<!-- Jessie don't forget to udate the webiste -->`. that's means there is a user named `jessie`.
 
