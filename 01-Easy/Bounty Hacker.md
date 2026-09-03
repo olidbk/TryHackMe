@@ -131,12 +131,12 @@ cat user.txt
 ```
 
 ```text
-THM{CR1M3_SyNd1C4T3}
+THM{CR1M3##############
 ```
 
 > user.txt
 > 
-> THM{CR1M3_SyNd1C4T3}
+> THM{CR1M3##############
 
 ```shell
 sudo -l

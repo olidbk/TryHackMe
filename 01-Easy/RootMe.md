@@ -71,13 +71,13 @@ find / -type f -name user.txt 2>/dev/null
 cat /var/www/user.txt
 ```
 
-```shell
-THM{y0u_g0t_a_sh3ll}
+```text
+THM{y0u##############
 ```
 
 > user.txt
 > 
-> THM{y0u_g0t_a_sh3ll}
+> THM{y0u##############
 
 Now that we have a shell, let's escalate our privileges to root.
 

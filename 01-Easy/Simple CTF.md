@@ -94,12 +94,12 @@ cat user.txt
 ```
 
 ```text
-G00d j0b, keep up!
+G00d j0b############
 ```
 
 > What’s the user flag?
 > 
-> G00d j0b, keep up!
+> G00d j0b############
 
 Now let's see the users on the system.
 

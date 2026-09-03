@@ -43,12 +43,12 @@ cat /home/www-data/flag.txt
 ```
 
 ```text
-6470e394cbf6dab6a91682cc8585059b
+6470e394cbf6d#######################
 ```
 
 > User.txt
 > 
-> 6470e394cbf6dab6a91682cc8585059b
+> 6470e394cbf6d#######################
 
 Now we have to be root so we can read `root.txt`.
 
