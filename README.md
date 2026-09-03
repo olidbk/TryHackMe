@@ -20,15 +20,15 @@ The goal of this repository is simple:
 
 ```text
 .
-├── Easy
+├── 01-Easy
 │   ├── Basic Pentesting.md
 │   ├── Pickle Rick.md
 │   ├── RootMe.md
 │   ├── Simple CTF.md
 │   └── ...
-├── Medium
-├── Hard
-└── Insane
+├── 02-Medium
+├── 03-Hard
+└── 04-Insane
 ```
 
 Each room or challenge is organized according to its TryHackMe difficulty level.
