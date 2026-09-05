@@ -1,6 +1,6 @@
 # Agent T Writeup
 
-> Linux
+> Machine : Linux
 
 > Something seems a little off with the server.
 

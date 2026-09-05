@@ -1,5 +1,7 @@
 # Bounty Hacker Writeup
 
+> Machine : Linux
+
 > You talked a big game about being the most elite hacker in the solar system. Prove it and claim your right to the status of Elite Bounty Hacker!
 
 ## Solution
@@ -131,12 +133,12 @@ cat user.txt
 ```
 
 ```text
-THM{CR1M3##############
+THM{CR1M3_SyNd1C4T3}
 ```
 
 > user.txt
 > 
-> THM{CR1M3##############
+> THM{CR1M3_SyNd1C4T3}
 
 ```shell
 sudo -l
@@ -169,10 +171,10 @@ cat /root/root.txt
 ```
 
 ```text
-THM{80UN7###########
+THM{80UN7Y_h4cK3r}
 ```
 
 > root.txt
 > 
-> THM{80UN7###########
+> THM{80UN7Y_h4cK3r}
 

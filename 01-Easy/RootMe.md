@@ -1,5 +1,7 @@
 # RootMe Writeup
 
+> Machine : Linux
+
 > A ctf for beginners, can you root me?
 
 ## Solution
@@ -72,12 +74,12 @@ cat /var/www/user.txt
 ```
 
 ```text
-THM{y0u##############
+THM{y0u_g0t_a_sh3ll}
 ```
 
 > user.txt
 > 
-> THM{y0u##############
+> THM{y0u_g0t_a_sh3ll}
 
 Now that we have a shell, let's escalate our privileges to root.
 
@@ -116,10 +118,10 @@ cat /root/root.txt
 ```
 
 ```text
-THM{pr1v1l3g3#############
+THM{pr1v1l3g3_3sc4l4t10n}
 ```
 
 > root.txt
 > 
-> THM{pr1v1l3g3#############
+> THM{pr1v1l3g3_3sc4l4t10n}
 

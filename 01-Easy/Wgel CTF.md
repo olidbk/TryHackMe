@@ -1,5 +1,7 @@
 # Wgel CTF Writeup
 
+> Machine : Linux
+
 > Can you exfiltrate the root flag?
 
 ## Solution
@@ -55,12 +57,12 @@ cat Documents/user_flag.txt
 ```
 
 ```text
-057c67131c3d#######################
+057c67131c3d5e42dd5cd3075b198ff6
 ```
 
 > User flag
 > 
-> 057c67131c3d#######################
+> 057c67131c3d5e42dd5cd3075b198ff6
 
 Now we have to be `root` so we can read the root flag.
 
@@ -132,10 +134,10 @@ cat /root/root_flag.txt
 ```
 
 ```text
-b1b968b37#########################
+b1b968b37519ad1daa6408188649263d
 ```
 
 > Root flag
 > 
-> b1b968b37#########################
+> b1b968b37519ad1daa6408188649263d
 

@@ -1,5 +1,7 @@
 # Ignite Writeup
 
+> Machine : Linux
+
 > A new start-up has a few issues with their web server.
 
 ## Solution
@@ -43,12 +45,12 @@ cat /home/www-data/flag.txt
 ```
 
 ```text
-6470e394cbf6d#######################
+6470e394cbf6dab6a91682cc8585059b
 ```
 
 > User.txt
 > 
-> 6470e394cbf6d#######################
+> 6470e394cbf6dab6a91682cc8585059b
 
 Now we have to be root so we can read `root.txt`.
 
@@ -100,10 +102,10 @@ cat /root/root.txt
 ```
 
 ```text
-b9bbcb33e11b######################
+b9bbcb33e11b80be759c4e844862482d
 ```
 
 > root.txt
 > 
-> b9bbcb33e11b######################
+> b9bbcb33e11b80be759c4e844862482d
 

@@ -1,5 +1,7 @@
 # Simple CTF Writeup
 
+> Machine : Linux
+
 > Beginner level ctf
 
 ## Solution
@@ -94,12 +96,12 @@ cat user.txt
 ```
 
 ```text
-G00d j0b############
+G00d j0b, keep up!
 ```
 
 > What’s the user flag?
 > 
-> G00d j0b############
+> G00d j0b, keep up!
 
 Now let's see the users on the system.
 
@@ -148,10 +150,10 @@ cat root.txt
 ```
 
 ```text
-W3ll###############
+W3ll d0n3. You made it!
 ```
 
 > What's the root flag?
 > 
-> W3ll###############
+> W3ll d0n3. You made it!
 
