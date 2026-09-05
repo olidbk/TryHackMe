@@ -20,18 +20,18 @@ The goal of this repository is simple:
 
 ```text
 .
-├── 01-Easy
+├── 01-Easy/
 │   ├── Basic Pentesting.md
 │   ├── Pickle Rick.md
 │   ├── RootMe.md
 │   ├── Simple CTF.md
 │   └── ...
 │
-├── 02-Medium
+├── 02-Medium/
 │
-├── 03-Hard
+├── 03-Hard/
 │
-├── 04-Insane
+├── 04-Insane/
 │
 └── README.md
 ```
