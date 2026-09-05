@@ -26,9 +26,14 @@ The goal of this repository is simple:
 │   ├── RootMe.md
 │   ├── Simple CTF.md
 │   └── ...
+│
 ├── 02-Medium
+│
 ├── 03-Hard
-└── 04-Insane
+│
+├── 04-Insane
+│
+└── README.md
 ```
 
 Each room or challenge is organized according to its TryHackMe difficulty level.
